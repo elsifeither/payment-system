@@ -3,6 +3,7 @@
 .logo-div img {
     height: 7rem;
     width: auto;
+    background: transparent;
 }
 
 /* Buttons */
@@ -15,10 +16,10 @@
     border: none;
     padding: 0.7rem 1.6rem;
     font-weight: 500;
-    background-color: #0049AF;
+    background-color: #32E6E2;
     color: #fff;
     cursor: pointer;
-    background: linear-gradient(135deg, #0049AF, #6366f1);
+    background: linear-gradient(135deg, #32E6E2, #03605e);
     transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 

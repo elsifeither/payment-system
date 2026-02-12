@@ -1,5 +1,58 @@
+/* header section */
 
-/* main last section */
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+    list-style: none;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    background: #32E6E2;
+    padding: 0.2rem 0;
+    margin: 0;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li a {
+    padding: 0.2rem 0.8rem;
+    display: block;
+    color: #222222;
+    font-size: 0.9rem;
+}
+
+.dropdown-menu li a:hover {
+    background: #f3f4f6;
+    padding: 0.2rem 0;
+    border-radius: 0.5rem;
+}
+
+
+
+/* main section */
 
 .main-div {
     background-color: #222;
@@ -11,14 +64,14 @@
 .partners-section {
     width: 100%;
     padding: 5rem 2rem;
-    background-color: #ffffff;
+    background-color: #12181F;
     text-align: center;
 }
 
 .partners-title {
     font-size: 2rem;
     font-weight: 700;
-    color: #222;
+    color: #fff;
     position: relative;
     display: inline-block;
     margin-bottom: 3rem;
@@ -87,62 +140,10 @@
 
 
 
+/* footer section */
 
-
-
-
-
-
-/* first Section main*/
-    /* Hero Section */
-    .hero {
-      position: relative;
-      background: url('/images/fc-sandanski-kids.jpg') center/cover no-repeat;
-      height: 60vh;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #fff;
-    }
-
-    .hero::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-color: rgba(0,0,0,0.5);
-    }
-
-    .hero-content {
-      position: relative;
-      max-width: 800px;
-      z-index: 1;
-    }
-
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .hero button {
-      background-color: #ff7f50;
-      color: #fff;
-      padding: 0.8rem 1.5rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-
-    .hero button:hover {
-      background-color: #ff5733;
-    }
-
-   
+.footer-div {
+    padding: 1.2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+}
