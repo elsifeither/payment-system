@@ -9,6 +9,10 @@
     min-height: 2.5rem;
 }
 
+.header-top-div a {
+    font-weight: 600;
+}
+
 
 
 .header-div {
