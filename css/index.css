@@ -109,11 +109,24 @@
 }
 
 .div-section-2 {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-section-2 h1, a {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
+
+.div-section-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 
 
