@@ -34,6 +34,16 @@
         color: #51dad7;
 }
 
+.nav-list-left-side .nav-list li.dropdown > a::after {
+  content: "";
+  border: solid #f3f4f6;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg); /* chevron pointing down */
+  margin-left: 8px;
+  transition: transform 0.3s;
+}
 
 .nav-list-left-side {
     display: flex;
